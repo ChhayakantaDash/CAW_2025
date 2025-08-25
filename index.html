@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding Awareness Workshop 2025 • CDD Club × Startup Club</title>
+  <meta name="description" content="Join the Coding Awareness Workshop 2025 organized by CDD Club and Startup Club. Learn, build, and network in one action-packed day.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">
+        <span class="brand-acronym">CAW</span>
+        <span class="brand-name">Coding Awareness Workshop 2025</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">☰</button>
+        <ul id="nav-list" class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#agenda">Agenda</a></li>
+          <li><a href="#speakers">Speakers</a></li>
+          <li><a href="#partners">Partners</a></li>
+          <li><button type="button" class="btn btn-sm" data-action="register">Register</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1 id="hero-title">Coding Awareness Workshop 2025</h1>
+          <p class="subtitle">Hosted by CDD Club and Startup Club</p>
+          <p class="meta">
+            <span class="meta-item">Date: <strong>March 15, 2025</strong></span>
+            <span class="meta-sep">•</span>
+            <span class="meta-item">Venue: <strong>Hybrid mode</strong></span>
+          </p>
+          <div class="hero-cta">
+            <a href="#agenda" class="btn btn-ghost">View agenda</a>
+            <button type="button" class="btn" data-action="register">Register</button>
+          </div>
+        </div>
+        <div class="hero-card" role="img" aria-label="Illustration representing coding and startups">
+          <img src="CAW.png" alt="Coding Awareness Workshop 2025 poster" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section" aria-labelledby="about-title">
+      <div class="container">
+        <h2 id="about-title">About the workshop</h2>
+        <p>
+          The Coding Awareness Workshop (CAW) 2025 is a beginner-friendly, hands-on day to
+          explore coding fundamentals, modern tooling, and how software powers startups. Whether
+          you’re completely new or looking to refresh core concepts, this event will help you learn by doing.
+        </p>
+        <div class="pill-group">
+          <span class="pill">Hands-on labs</span>
+          <span class="pill">Beginner friendly</span>
+          <span class="pill">Career pathways</span>
+          <span class="pill">Startup case studies</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="agenda" class="section section-alt" aria-labelledby="agenda-title">
+      <div class="container">
+        <h2 id="agenda-title">Agenda</h2>
+        <div id="agenda-list" class="cards two-col" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section id="speakers" class="section" aria-labelledby="speakers-title">
+      <div class="container">
+        <h2 id="speakers-title">Speakers & Mentors</h2>
+        <div id="speakers-list" class="cards three-col" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section id="partners" class="section section-alt" aria-labelledby="partners-title">
+      <div class="container">
+        <h2 id="partners-title">Partners</h2>
+        <ul class="logo-row" id="partners-list" aria-live="polite"></ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-acronym">CAW</span>
+        <span>2025</span>
+      </div>
+      <p class="fineprint">Organized by CDD Club × Startup Club • © 2025</p>
+      <a href="#home" class="back-to-top" aria-label="Back to top">↑</a>
+    </div>
+  </footer>
+
+  <script type="text/javascript">
+    (function(d, t) {
+      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      v.onload = function() {
+        window.voiceflow && window.voiceflow.chat && window.voiceflow.chat.load({
+          verify: { projectID: '68aaa7a6d8a4b7acbcdad268' },
+          url: 'https://general-runtime.voiceflow.com',
+          versionID: 'production',
+          voice: { url: 'https://runtime-api.voiceflow.com' }
+        });
+      };
+      v.src = 'https://cdn.voiceflow.com/widget-next/bundle.mjs';
+      v.type = 'text/javascript';
+      s.parentNode.insertBefore(v, s);
+    })(document, 'script');
+  </script>
+  <script src="app.js" type="module"></script>
+</body>
+</html>
+
