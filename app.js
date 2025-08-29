@@ -1,26 +1,69 @@
 // Data modules
 const agendaItems = [
-  { time: "09:30", title: "Check-in & Welcome", desc: "Grab your badge, meet peers, opening remarks." },
-  { time: "10:00", title: "Coding Fundamentals", desc: "Variables, control flow, problem-solving exercises." },
-  { time: "11:30", title: "Web in 60 minutes", desc: "HTML, CSS, JS quickstart; build a mini page." },
-  { time: "13:00", title: "Lunch & Networking", desc: "Refuel and connect with clubs and mentors." },
-  { time: "14:00", title: "Startup Tech 101", desc: "How startups use code to validate ideas fast." },
-  { time: "15:30", title: "Guided Labs", desc: "Hands-on lab time with mentors and Q&A." },
-  { time: "17:00", title: "Demos & Wrap-up", desc: "Share what you built; prizes and next steps." }
+  {
+    time: "6th Sep, 2:00PM - 5:00PM (OFFLINE)",
+    title: "Inaugural Ceremony & Foundational Tech",
+    desc: "Inaugural address, Operating Systems, Essential Developer Tools, LinkedIn Optimisation, and Engineering Roadmap."
+  },
+
+  {
+    time: "7th Sep, 7:00PM - 8:30PM (ONLINE)",
+    title: "Introduction to Coding & OOP",
+    
+    desc: "History of programming languages (C/C++, Java, Python) and Object-Oriented Programming concepts. "
+  },
+  {
+    time: "8th Sep, 7:00PM - 8:30PM (ONLINE)",
+    title: "Web Development & UI/UX",
+    desc: "Exploring Frontend, Backend, Full-Stack development, and UI/UX design principles and tools. "
+  },
+  {
+    time: "9th Sep, 7:00PM - 8:30PM (ONLINE)",
+    title: "Data & AI Horizons",
+    desc: "Diving into Data Science, Data Analytics, Machine Learning, and Deep Learning. "
+  },
+  {
+    time: "10th Sep, 7:00PM - 8:30PM (ONLINE)",
+    title: "Mobile App Development",
+    desc: "Overview of mobile app development, Kotlin, cross-platform with React Native, and career scope. "
+  },
+  {
+    time: "10th Sep, 7:00PM - 8:30PM (ONLINE)",
+    title: "Cybersecurity & Future of AI",
+    desc: "Covering Cybersecurity, Online Safety, Generative AI, and Agentic AI. "
+  },
+  {
+    time: "12th Sep, 7:00PM - 8:30PM (ONLINE)",
+    title: "DevOps & Cloud Computing",
+    desc: "Understanding DevOps, CI/CD pipelines, and an introduction to major cloud platforms. "
+  },
+  {
+    time: "13th Sep, 2:00PM - 5:00PM (OFFLINE)",
+    title: "Hardware, IoT & Closing Ceremony",
+    desc: "Sessions on Computer Hardware, IoT, Soft Skills workshop, a final quiz, Q&A, and the Valedictory Ceremony with prize distribution."
+  }
 ];
 
 const speakers = [
-  { name: "Ayesha Khan", role: "Software Engineer, CDD Club", topic: "From Zero to First Script" },
-  { name: "Ravi Desai", role: "Founder, DevLaunch", topic: "Prototyping Faster" },
-  { name: "Meera Patel", role: "Data Scientist", topic: "AI Basics without Jargon" },
-  { name: "Arjun Rao", role: "CTO, SeedStart", topic: "Startup Tech Choices" }
+  { name: "OMKAR PADHY", role: "Workshop Tutor", topic: "Programming Languages,IOT Generative AI" },
+  { name: "SUBHAM CHOUDHURY", role: "Workshop Tutor", topic: "Operating Systems, DevOps & IoT" },
+  { name: "SUBHASHREE PANDA", role: "Workshop Tutor", topic: "DATA SCIENCE AND DATA ANALYTICS" },
+  { name: "DEBASISH SAHU", role: "Workshop Tutor", topic: "MACHINE LEARNING, ONLINE SAFETY & Soft Skills" },
+  { name: "BIKASH RANJAN HOTA", role: "Workshop Tutor", topic: "Developer Tools, Mobile APP DEV & Cloud Computing" },
+  { name: "SARTHAK MISHRA", role: "Workshop Tutor", topic: "Mobile & Cloud Development" },
+  { name: "ANISHA PARIDA", role: "Workshop Tutor", topic: "Programming in C/C++, Java, Python & OOPs" },
+  { name: "BAIBHAB SAHU", role: "Workshop Tutor", topic: "LinkedIn Optimization Tips" },
+  { name: "CHHAYAKANTA DASH", role: "Workshop Tutor", topic: "Agentic AI" },
+  { name: "PRANJAL PANDA", role: "Workshop Tutor", topic: "Deep Learning" },
+  { name: "SWAGAT PRASAD NANDA", role: "Workshop Tutor", topic: "ENGINEERING ROADMAP, FRONTEND DEVELOPMENT ,BACKEND DEVELOPMENT,FULL-STACK DEVELOPMENT: SCOPE & OPPORTUNITIES,UI/UX DESIGN AND TOOL,COMPUTER HARDWARES" },
+  { name: "SHUBHAM RANJAN SAHOO", role: "Workshop Tutor", topic: "CYBERSECURITY" }
 ];
 
 const partners = [
   "CDD Club",
   "Startup Club",
-  "Innovation Hub",
-  "Tech Sponsors"
+  "Idea & Innovation Cell",
+  
 ];
 
 // DOM helpers
