@@ -172,7 +172,7 @@ input:focus, select:focus { border-color: var(--brand); box-shadow: 0 0 0 3px rg
       .hero-cta {
         display: flex; /* Use flexbox for alignment */
         justify-content: center; /* Center the buttons */
-        gap: 0.5rem; /* Space between buttons */
+        gap: 0.3rem; /* Space between buttons */
         flex-wrap: nowrap; /* Prevent buttons from wrapping to the next line */
       }
 
