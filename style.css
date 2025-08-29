@@ -88,3 +88,75 @@ input:focus, select:focus { border-color: var(--brand); box-shadow: 0 0 0 3px rg
   .logo-row { grid-template-columns: 1fr 1fr; }
 }
 
+
+    /* Default state for the hamburger menu button */
+    .nav-toggle {
+      display: none; /* Hidden on desktop */
+      background: none;
+      border: none;
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    /* Media query for mobile screens */
+    @media (max-width: 768px) {
+      /* Stack hero content vertically */
+      .hero-inner {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hero-copy {
+        margin-bottom: 2rem;
+      }
+      
+      .hero-cta {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+
+      /* Show the hamburger menu button */
+      .nav-toggle {
+        display: block;
+      }
+
+      /* Style the mobile navigation menu */
+      .nav-list {
+        display: none; /* Hide the list by default */
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: #fff; /* White background */
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem 0;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      }
+
+      .nav-list li {
+        margin: 0.5rem 0;
+      }
+
+      /* This class will be toggled by JavaScript */
+      .nav.is-open .nav-list {
+        display: flex; /* Show the menu when open */
+      }
+      
+      /* Stack cards into a single column */
+      .cards.two-col,
+      .cards.three-col {
+        /* This assumes your cards are in a grid. This makes it a 1-column grid. */
+        grid-template-columns: 1fr;
+      }
+      
+      /* Center and stack the footer */
+      .footer-inner {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+    }
+  
+
