@@ -174,6 +174,7 @@ input:focus, select:focus { border-color: var(--brand); box-shadow: 0 0 0 3px rg
         justify-content: center; /* Center the buttons */
         gap: 0.3rem; /* Space between buttons */
         flex-wrap: nowrap; /* Prevent buttons from wrapping to the next line */
+        
       }
 
       /* Adjust button size on mobile to fit */
