@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header class="site-header">
     <div class="container header-inner">
@@ -90,7 +92,6 @@
         <ul class="logo-row" id="partners-list" aria-live="polite"></ul>
       </div>
     </section>
-
   </main>
 
   <footer class="site-footer">
@@ -105,11 +106,14 @@
   </footer>
 
   <script type="text/javascript">
-  (function(d, t) {
-      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+    (function(d, t) {
+      var v = d.createElement(t),
+        s = d.getElementsByTagName(t)[0];
       v.onload = function() {
         window.voiceflow.chat.load({
-          verify: { projectID: '68b3028dcb2e1a8825cb9fa6' },
+          verify: {
+            projectID: '68b3028dcb2e1a8825cb9fa6'
+          },
           url: 'https://general-runtime.voiceflow.com',
           versionID: 'production',
           voice: {
@@ -117,10 +121,12 @@
           }
         });
       }
-      v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
-  })(document, 'script');
-</script>
+      v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs";
+      v.type = "text/javascript";
+      s.parentNode.insertBefore(v, s);
+    })(document, 'script');
+  </script>
   <script src="app.js" type="module"></script>
 </body>
-</html>
 
+</html>
