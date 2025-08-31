@@ -28,7 +28,7 @@ const agendaItems = [
     desc: "Overview of mobile app development, Kotlin, cross-platform with React Native, and career scope. "
   },
   {
-    time: "10th Sep, 7:00PM - 8:30PM (ONLINE)",
+    time: "11th Sep, 7:00PM - 8:30PM (ONLINE)",
     title: "Cybersecurity & Future of AI",
     desc: "Covering Cybersecurity, Online Safety, Generative AI, and Agentic AI. "
   },
@@ -60,9 +60,9 @@ const speakers = [
 ];
 
 const partners = [
-  "Coding Design And Development Club (CDD)",
-  "Startup innovation Cell(SIC)",
-  "Idea & Innovation Cell(IIC)",
+  "CDD",
+  "SIC",
+  "IIC",
   
 ];
 
