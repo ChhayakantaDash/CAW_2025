@@ -47,22 +47,22 @@ const agendaItems = [
 const speakers = [
   { name: "OMKAR PADHY", role: "Workshop Tutor", topic: "Programming Languages,IOT Generative AI" },
   { name: "SUBHAM CHOUDHURY", role: "Workshop Tutor", topic: "Operating Systems, DevOps & IoT" },
-  { name: "SUBHASHREE PANDA", role: "Workshop Tutor", topic: "DATA SCIENCE AND DATA ANALYTICS" },
-  { name: "DEBASISH SAHU", role: "Workshop Tutor", topic: "MACHINE LEARNING, ONLINE SAFETY & Soft Skills" },
-  { name: "BIKASH RANJAN HOTA", role: "Workshop Tutor", topic: "Developer Tools, Mobile APP DEV & Cloud Computing" },
+  { name: "SUBHASHREE PANDA", role: "Workshop Tutor", topic: "Data Science AND Data Analytics" },
+  { name: "DEBASISH SAHU", role: "Workshop Tutor", topic: "Machine Learning, Online Safety & Soft Skills" },
+  { name: "BIKASH RANJAN HOTA", role: "Workshop Tutor", topic: "Developer Tools, Mobile APP Dev & Cloud Computing" },
   { name: "SARTHAK MISHRA", role: "Workshop Tutor", topic: "Mobile & Cloud Development" },
   { name: "ANISHA PARIDA", role: "Workshop Tutor", topic: "Programming in C/C++, Java, Python & OOPs" },
   { name: "BAIBHAB SAHU", role: "Workshop Tutor", topic: "LinkedIn Optimization Tips" },
   { name: "CHHAYAKANTA DASH", role: "Workshop Tutor", topic: "Agentic AI" },
   { name: "PRANJAL PANDA", role: "Workshop Tutor", topic: "Deep Learning" },
-  { name: "SWAGAT PRASAD NANDA", role: "Workshop Tutor", topic: "ENGINEERING ROADMAP, FRONTEND DEVELOPMENT ,BACKEND DEVELOPMENT,FULL-STACK DEVELOPMENT: SCOPE & OPPORTUNITIES,UI/UX DESIGN AND TOOL,COMPUTER HARDWARES" },
-  { name: "SHUBHAM RANJAN SAHOO", role: "Workshop Tutor", topic: "CYBERSECURITY" }
+  { name: "SWAGAT PRASAD NANDA", role: "Workshop Tutor", topic: "Engineering Roadmap, Frontend Development ,Backend Development,Full Stack Development: Scope & Opertunity,UI/UX Design & Tools,Computer Hardware" },
+  { name: "SHUBHAM RANJAN SAHOO", role: "Workshop Tutor", topic: "Cybersecurity" }
 ];
 
 const partners = [
-  "CDD Club",
-  "Startup Club",
-  "Idea & Innovation Cell",
+  "Coding Design And Development Club (CDD)",
+  "Startup innovation Cell(SIC)",
+  "Idea & Innovation Cell(IIC)",
   
 ];
 
